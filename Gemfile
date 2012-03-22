@@ -36,8 +36,13 @@ end
 
 group :test do
   gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'
   gem 'capybara'
   gem 'database_cleaner'
   # Pretty printed test output
   #gem 'turn', '0.8.2', :require => false
 end
+
+## Pre-requirements - 'nokogiri' gem
+# http://nokogiri.org/tutorials/installing_nokogiri.html
+# sudo port install libxml2 libxslt
