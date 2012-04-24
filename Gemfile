@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '3.1.4'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -44,6 +44,8 @@ group :test do
   # Pretty printed test output
   #gem 'turn', '0.8.2', :require => false
 end
+
+gem 'devise', '~> 1.5.3'
 
 ## Pre-requirements - 'nokogiri' gem
 # http://nokogiri.org/tutorials/installing_nokogiri.html
