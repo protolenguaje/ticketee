@@ -46,6 +46,7 @@ group :test do
 end
 
 gem 'devise', '~> 1.5.3'
+gem 'email_spec'
 
 ## Pre-requirements - 'nokogiri' gem
 # http://nokogiri.org/tutorials/installing_nokogiri.html
